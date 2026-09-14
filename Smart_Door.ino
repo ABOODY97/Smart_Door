@@ -28,11 +28,11 @@ byte colPins[COLS] = {25, 33, 32, 21};
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 
 // ================= إعدادات كلمات المرور =================
-String correctPassword = "1234"; // الرقم السري المطلوب إدخاله (يمكنك تغييره)
+String correctPassword = "***************"; // الرقم السري المطلوب إدخاله (يمكنك تغييره)
 String inputPassword = "";
 
 // ضع هنا كود البطاقة الصحيح بعد معرفته من الـ Serial Monitor
-String correctRFID = "23917D29";
+String correctRFID = "***********";
 
 unsigned long lastActivityTime = 0;
 const unsigned long IDLE_TIMEOUT = 10000; // مسح الإدخال بعد 10 ثواني بدون ضغط مفتاح
